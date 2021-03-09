@@ -1,0 +1,9 @@
+name: editmode-cr
+version: 0.1.0
+
+authors:
+  - Xavi Ablaza <xlablaza@gmail.com>
+
+crystal: 0.36.1
+
+license: MIT
