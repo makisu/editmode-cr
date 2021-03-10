@@ -10,8 +10,7 @@ class Editmode::Chunk
   end
 
   def self.retrieve(content_key : String, project_id : String)
-    params = URI::Params.encode({project_id: project_id})
-    response = Editmode.client.get("/chunks/#{content_key}", query: params)
+    response = Editmode.client.get("/chunks/#{content_key}?project_id=#{project_id}")
 
     if response.status_code == 200
       Chunk.from_json(response.body)
