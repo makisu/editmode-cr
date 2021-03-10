@@ -1,0 +1,9 @@
+{
+  "identifier": "cnk_4e86a1382b66a76f9c57",
+  "chunk_type": "rich_text",
+  "project_id": "prj_7H2yMxPljDci",
+  "branch_id": "u5ggt4JztTxL",
+  "master_branch": true,
+  "content_key": "en_landing_server_performance_body",
+  "content": "Our data centers around the world have a \u003cstrong\u003eminimum\u0026nbsp;\u003c/strong\u003espec of 128GB RAM paired with Intel Core i9 9900K processors. We never oversubscribe customers to a single machine to avoid as much server overload as possible, with server metrics like CPU usage easily trackable on your dashboard. We focus on providing the best Valheim experience and follow server management practices recommended by IT experts and the Valheim community. If you're worried about your connection to our servers, you can use our \u003cstrong\u003ePing Tester\u003c/strong\u003e below."
+}
