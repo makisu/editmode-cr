@@ -1,0 +1,22 @@
+{
+  "chunks" : [
+    {
+      "identifier": "cnk_a3f48afebecbc10ab289",
+      "chunk_type": "single_line_text",
+      "project_id": "prj_7H2yMxPljDci",
+      "branch_id": "u5ggt4JztTxL",
+      "master_branch": true,
+      "content_key": "en_skype_support",
+      "content": "Skype support"
+    },
+    {
+      "identifier": "cnk_496c118b025ad9fee202",
+      "chunk_type": "single_line_text",
+      "project_id": "prj_7H2yMxPljDci",
+      "branch_id": "u5ggt4JztTxL",
+      "master_branch": true,
+      "content_key": "en_region",
+      "content": "Region"
+    }
+  ]
+}
