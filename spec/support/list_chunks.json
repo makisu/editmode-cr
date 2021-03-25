@@ -17,6 +17,45 @@
       "master_branch": true,
       "content_key": "en_region",
       "content": "Region"
+    },
+    {
+      "identifier": "cnk_3ef7121b36ab4498be6b",
+      "chunk_type": "collection_item",
+      "collection": {
+        "name": "Root OG Metatag",
+        "identifier": "col_0Y3XwWKLgPK0"
+      },
+      "project_id": "prj_7H2yMxPljDci",
+      "branch_id": "u5ggt4JztTxL",
+      "master_branch": true,
+      "content_key": "en_root_og_image",
+      "variable_fallbacks": {
+        "trial_hours": "24"
+      },
+      "content": [
+        {
+          "custom_field_identifier": "fld_21SHYJpk0A5X",
+          "custom_field_name": "property",
+          "identifier": "cnk_d9cf612f8071260da976",
+          "chunk_type": "single_line_text",
+          "project_id": "prj_7H2yMxPljDci",
+          "branch_id": "u5ggt4JztTxL",
+          "master_branch": true,
+          "content_key": null,
+          "content": "og:image"
+        },
+        {
+          "custom_field_identifier": "fld_Lg0f3BgTdu1G",
+          "custom_field_name": "content",
+          "identifier": "cnk_77c9c83180d9f5f6c676",
+          "chunk_type": "long_text",
+          "project_id": "prj_7H2yMxPljDci",
+          "branch_id": "u5ggt4JztTxL",
+          "master_branch": true,
+          "content_key": null,
+          "content": ""
+        }
+      ]
     }
   ]
 }

@@ -20,6 +20,6 @@ describe Editmode::Chunk do
     WebMock.stub(:get, "https://api.editmode.com/chunks?project_id=prj_7H2yMxPljDci").to_return(status: 200, body: File.read("spec/support/list_chunks.json"), headers: {"Content-Type" => "application/json"})
 
     chunk_list = Editmode::Chunk.list("prj_7H2yMxPljDci")
-    chunk_list.chunks.size.should eq(2)
+    chunk_list.chunks.size.should eq(3)
   end
 end
