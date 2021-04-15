@@ -21,5 +21,7 @@ describe Editmode::Chunk do
 
     chunk_list = Editmode::Chunk.list("prj_7H2yMxPljDci")
     chunk_list.chunks.size.should eq(3)
+    chunk_list.chunks[1].content.should be_a(String)
+    chunk_list.chunks[2].content.should be_a(Array(Editmode::CollectionItem))
   end
 end
