@@ -24,4 +24,12 @@ describe Editmode::Chunk do
     chunk_list.chunks[1].content.should be_a(String)
     chunk_list.chunks[2].content.should be_a(Array(Editmode::CollectionItem))
   end
+  it "lists chunks for a collection" do
+    WebMock.stub(:get, "https://api.editmode.com/chunks?project_id=prj_7H2yMxPljDci&collection_identifier=col_Vl5KkMQ1UPND").to_return(status: 200, body: File.read("spec/support/list_chunks_for_collection.json"), headers: {"Content-Type" => "application/json"})
+
+    chunk_list = Editmode::Chunk.list("prj_7H2yMxPljDci", collection_identifier: "col_Vl5KkMQ1UPND")
+    chunk_list.chunks.size.should eq(1)
+    chunk_list.chunks[0].content.should be_a(Array(Editmode::CollectionItem))
+    chunk_list.chunks[0].content.as(Array(Editmode::CollectionItem))[0].chunk_type.should eq("imperavi_rich_text")
+  end
 end
