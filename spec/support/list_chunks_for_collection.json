@@ -1,0 +1,34 @@
+{
+  "chunks": [
+    {
+      "identifier": "cnk_939e0fe541596b813747",
+      "chunk_type": "collection_item",
+      "collection": {
+        "name": "Blog Post",
+        "identifier": "col_Vl5KkMQ1UPND",
+        "content_key": ""
+      },
+      "tags": [
+        "blog"
+      ],
+      "project_id": "prj_7H2yMxPljDci",
+      "branch_id": "u5ggt4JztTxL",
+      "master_branch": true,
+      "content_key": "",
+      "content": [
+        {
+          "custom_field_identifier": "fld_EPsF1TvRLs6r",
+          "custom_field_name": "content",
+          "identifier": "cnk_e55eae8b090625eac624",
+          "chunk_type": "imperavi_rich_text",
+          "tags": [],
+          "project_id": "prj_7H2yMxPljDci",
+          "branch_id": "u5ggt4JztTxL",
+          "master_branch": true,
+          "content_key": null,
+          "content": "<p>This is a sample blog post with a couple of pictures.</p><figure><img src=\"https://editmode.s3.eu-west-1.amazonaws.com//direct_upload/prj_7H2yMxPljDci/u5ggt4JztTxL/32f32f23f.PNG\" data-image=\"/direct_upload/prj_7H2yMxPljDci/u5ggt4JztTxL/32f32f23f.PNG\"></figure><p>Another big time test.</p>"
+        }
+      ]
+    }
+  ]
+}
