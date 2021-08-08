@@ -1,5 +1,5 @@
 class Editmode::Chunk
-  def self.list(project_id : String, collection_identifier : String? = nil)
+  def self.list(project_id : String, collection_identifier : String? = nil, as_string : Bool = false)
     path_params = "project_id=#{project_id}"
     collection_identifier.try do |col_id|
       path_params = path_params + "&collection_identifier=#{col_id}"
