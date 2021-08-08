@@ -7,7 +7,11 @@ class Editmode::Chunk
 
     response = Editmode.client.get("/chunks?#{path_params}")
     if response.status_code == 200
-      Chunk::List.from_json(response.body)
+      if as_string
+        response.body
+      else
+        Chunk::List.from_json(response.body)
+      end
     else
       raise Error.from_json(response.body)
     end
